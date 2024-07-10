@@ -85,12 +85,14 @@ p{
     margin-left: auto;
     margin-right: auto;
     width: 15%;
-    background-position: ;
 }
 
 .section{
     margin-top: 154px;
     margin-bottom: 88px;
+    background-color:rgb(255, 255, 252);
+    border-radius: 16px
+    padding: 10px;
 }
 
 .title-desc{
@@ -104,6 +106,8 @@ p{
     line-height: 37px;
     letter-spacing: 0%;
     text-align: center;
+    margin-top: 88px;
+    margin-bottom: 24px;
 }
 
 .sub-sec{
@@ -136,4 +140,97 @@ main{
     max-width: 1140px;
     /* this means the section will be in center */
     margin: 0 auto;
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+}
+iframe{
+    display: block;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 32px;
+    margin-top: 48px;
+}
+
+.skills{
+    text-align: left;
+
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+    
+}
+
+.skill{
+    padding: 0;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    width: 364px;
+    height: 200px;
+    margin-bottom: 111px;
+}
+
+.skill-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 149px 142px 24px 144px;
+}
+
+.skill-titles{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.skill-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 48px;
+    margin-left: 144;
+    margin-right: 144;
+}
+
+.skill1{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.skill2{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.skill3{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.learn{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
 }
