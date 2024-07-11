@@ -305,7 +305,7 @@ footer{
     max-width: 1140px;
     gap: 500px;
     padding: 32px 150px;
-    margin: 32px 150px;
+    margin: 32px 150px 10px 150px;
     border-radius: 16px;
 
 }
